@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+    >
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+
+      <ImageView
+          android:id="@+id/img_girl"
+          android:layout_width="100dp"
+          android:layout_height="100dp"
+          android:scaleType="centerCrop"
+          tools:src="@mipmap/girl_four"
+          android:layout_alignParentLeft="true"
+
+          />
+      <TextView
+          android:id="@+id/girl_name"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          tools:text="11ddsds"
+          android:layout_centerInParent="true"
+          android:textSize="14sp"
+
+          />
+  </RelativeLayout>
+
+</LinearLayout>
